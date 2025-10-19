@@ -22,11 +22,11 @@
             <!-- Form Column -->
             <div class="col-md-6 contact-form-column">
                 <form action="../backend/contact-form.php" method="post" class="contact-form">
-                    <input type="text" id="fname" name="firstname" placeholder="Your first name.." class="contact-input"/required>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name.." class="contact-input" required>
 
                     <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="contact-input">
 
-                    <input type="email" id="email" name="email" placeholder="Your email" class="contact-input" /required>
+                    <input type="email" id="email" name="email" placeholder="Your email" class="contact-input" required>
 
                     <label for="inquery" class="contact-label">Select A Topic Below</label>
                     <select id="inquery" name="inquery" class="contact-select">
@@ -38,7 +38,7 @@
                         <option value="branding">Branding</option>
                     </select>
 
-                    <textarea id="subject" name="subject" placeholder="Type here your inquiry details.." class="contact-textarea" /required></textarea>
+                    <textarea id="subject" name="subject" placeholder="Type here your inquiry details.." class="contact-textarea" required></textarea>
 
                     <button type="submit" name="submit" value="1" class="contact-submit-btn">Submit</button>
                 </form>
