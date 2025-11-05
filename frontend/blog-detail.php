@@ -100,8 +100,8 @@
         <p>Watulo Paul is a Lead Web Designer with 5+ years of experience creating user-centered digital experiences. He specializes in responsive design systems and accessibility, and regularly contributes to industry publications.</p>
       </div>
     </div>
+<!--
 
-    <!-- Comments section -->
     <div class="bd-comments-section">
       <h3>Comments (3)</h3>
       
@@ -129,7 +129,7 @@
         </div>
       </div>
 
-      <!-- Comment form -->
+
       <div class="bd-comment-form">
         <h3>Leave a comment</h3>
         <form>
@@ -142,6 +142,8 @@
         </form>
       </div>
     </div>
+
+-->
 
     <!-- Related posts -->
     <div class="bd-related-posts">
