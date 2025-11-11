@@ -3491,7 +3491,7 @@ background: #ffffff;
   color: #666;
 }
 
-/* Comments */
+/* Comments 
 .bd-comments-section {
   margin-bottom: 50px;
 }
@@ -3563,7 +3563,6 @@ background: #ffffff;
   color: #fb8500;
 }
 
-/* Comment form */
 .bd-comment-form {
   background: #f9f9f9;
   padding: 25px;
@@ -3614,6 +3613,7 @@ background: #ffffff;
 .bd-comment-form button:hover {
   background: #e67700;
 }
+/* Comment form */
 
 /* Related posts */
 .bd-related-posts {
