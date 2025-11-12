@@ -3615,6 +3615,26 @@ background: #ffffff;
 }
 /* Comment form */
 
+/* like button */
+.bd-like-btn {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.bd-like-btn:hover {
+    transform: translateY(-2px);
+}
+
+.bd-like-btn i {
+    transition: all 0.3s ease;
+}
+
+.bd-like-btn.liked i {
+    color: #ff4757 !important;
+}
+
 /* Related posts */
 .bd-related-posts {
   margin-bottom: 30px;
