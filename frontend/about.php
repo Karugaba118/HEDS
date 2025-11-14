@@ -155,7 +155,7 @@
       <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
         <div class="team-member-card">
           <div class="team-img-container">
-            <img src="../img/team/watulo.jpeg" alt="John Doe" class="img-fluid">
+            <img src="../img/team/watulo.jpeg" alt="Watulo Paul Web Designer" class="img-fluid">
             <div class="team-overlay">
               <div class="social-links">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -175,7 +175,7 @@
       <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
         <div class="team-member-card">
           <div class="team-img-container">
-            <img src="../img/team/karugaba.JPG" alt="Sarah Johnson" class="img-fluid">
+            <img src="../img/team/karugaba.JPG" alt="Karugaba Confort Creative Director" class="img-fluid">
             <div class="team-overlay">
               <div class="social-links">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -195,7 +195,7 @@
       <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
         <div class="team-member-card">
           <div class="team-img-container">
-            <img src="../img/team/Ssembatya.JPG" alt="Michael Chen" class="img-fluid">
+            <img src="../img/team/Ssembatya.JPG" alt="Ssembatya Reagan marketing Specialist" class="img-fluid">
             <div class="team-overlay">
               <div class="social-links">
                 <a href="#"><i class="bi bi-linkedin"></i></a>

@@ -3167,6 +3167,7 @@ background: #ffffff;
 
 .read-more-btn:hover {
   color: #00c2cb;
+  text-decoration: none;
 }
 
 .read-more-btn i {
@@ -3525,8 +3526,9 @@ background: #ffffff;
 }
 
 .bd-tag:hover {
-  background: #fb8500;
+  background: #00c2cb;
   color: white;
+  text-decoration: none;
 }
 
 .bd-actions {
@@ -3574,7 +3576,7 @@ background: #ffffff;
 }
 
 .bd-social-icon:hover {
-  color: #fb8500;
+  color: #00c2cb;
 }
 
 /* Author bio */

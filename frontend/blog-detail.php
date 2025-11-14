@@ -67,7 +67,7 @@
           </button>
           <div class="bd-social-share">
             <span>Share:</span>
-            <a href="#" class="bd-social-icon"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="bd-social-icon"><i class="bi bi-twitter-x"></i></a>
             <a href="#" class="bd-social-icon"><i class="bi bi-linkedin"></i></a>
             <a href="#" class="bd-social-icon"><i class="bi bi-facebook"></i></a>
           </div>
