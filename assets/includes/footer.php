@@ -17,6 +17,7 @@
           <p><a href="#!web-design.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Web design and development</a></p>
           <p><a href="#!app-development.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> App development</a></p>
           <p><a href="#!graphics-design.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Graphics design</a></p>
+          <p><a href="#!video-editing.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Video Editing</a></p>
           <p><a href="#!seo-ads.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Online Ads&SEO</a></p>
           <p><a href="#!roadside-banner.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Roadside banner Ads</a></p>
           <p><a href="#!branding.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Branding</a></p>

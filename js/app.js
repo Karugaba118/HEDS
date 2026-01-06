@@ -29,6 +29,9 @@ app.config(function($routeProvider) {
         .when("/graphics-design.php", {
             templateUrl: "graphics-design.php"
         })
+        .when("/video-editing.php", {
+            templateUrl: "video-editing.php"
+        })
         .when("/seo-ads.php", {
             templateUrl: "seo-ads.php"
         })

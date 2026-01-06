@@ -36,6 +36,7 @@
               <a class="dropdown-item" href="#!web-design.php">Web Design & Development</a>
               <a class="dropdown-item" href="#!app-development.php">App Development</a>
               <a class="dropdown-item" href="#!graphics-design.php">Graphics Design</a>
+              <a class="dropdown-item" href="#!video-editing.php">Video Editing</a>
               <a class="dropdown-item" href="#!seo-ads.php">SEO and Ads</a>
               <a class="dropdown-item" href="#!roadside-banner.php">Roadside Banner Ads</a>
               <a class="dropdown-item" href="#!branding.php">Branding</a>
