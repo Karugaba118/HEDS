@@ -105,6 +105,33 @@
         </div>
       </div>
 
+      <!-- Video Editing Card -->
+      <div class="service-card" data-tilt data-tilt-max="15" data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.2">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="card-icon">
+              <i class="bi bi-camera-reels"></i>
+            </div>
+            <h3>Video Production</h3>
+            <p>Cinematic storytelling that engages audiences and drives results</p>
+            <div class="card-cta">
+              <span>Learn More</span>
+              <i class="bi bi-arrow-right"></i>
+            </div>
+          </div>
+          <div class="card-back">
+            <h4>Video Production</h4>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Commercial Videos</li>
+              <li><i class="bi bi-check-circle"></i> Social Media Content</li>
+              <li><i class="bi bi-check-circle"></i> Post-Production Editing</li>
+              <li><i class="bi bi-check-circle"></i> Motion Graphics & VFX</li>
+            </ul>
+            <a href="#!/video-editing.php" class="service-link">View Details <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+
       <!-- SEO & Ads Card -->
       <div class="service-card" data-tilt data-tilt-max="15" data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.2">
         <div class="card-inner">
@@ -122,7 +149,7 @@
           <div class="card-back">
             <h4>SEO & Ads</h4>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Search Engine Optimization</li>
+              <li><i class="bi bi-check-circle"></i> SEO</li>
               <li><i class="bi bi-check-circle"></i> Google Ads Management</li>
               <li><i class="bi bi-check-circle"></i> Social Media Advertising</li>
               <li><i class="bi bi-check-circle"></i> Analytics & Reporting</li>

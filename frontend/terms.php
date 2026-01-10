@@ -41,7 +41,7 @@
       <div class="tc-sections">
         <section id="services" class="tc-section">
           <h2>Services</h2>
-          <p>Our agency provides digital services including but not limited to web design, web development, mobile application development, graphic design, and digital marketing services.</p>
+          <p>Our agency provides digital services including but not limited to web design, web development, mobile application development, graphic design, video-editing and digital marketing services.</p>
           
           <h3>Service Delivery</h3>
           <p>We will provide the services with reasonable skill and care in accordance with generally accepted industry standards. Timelines for project completion are estimates and not guaranteed unless specifically agreed in writing.</p>
@@ -146,7 +146,7 @@
         <div class="tc-contact-box">
           <h3>Questions About Our Terms?</h3>
           <p>If you have any questions about these Terms & Conditions, please contact us:</p>
-          <p>Email: legal@digital.com<br>
+          <p>Email: legal@heds.com<br>
           Phone: (+256) 703618938<br>
           Address: Kampala, Uganda</p>
         </div>

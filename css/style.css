@@ -2192,6 +2192,8 @@ background: #ffffff;
 .service-link:hover {
   background: rgba(255, 255, 255, 0.25);
   transform: translateY(-2px);
+  text-decoration: none;
+  color: #00c2cb;
 }
 
 .service-link i {
