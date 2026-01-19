@@ -33,6 +33,7 @@
                         <option value="web-design">Web design and development</option>
                         <option value="app-dev">App development</option>
                         <option value="graphics">Graphics design</option>
+                        <option value="video-editing">Video Editing</option>
                         <option value="seo">SEO & Ads</option>
                         <option value="banners">Road side banner Ads</option>
                         <option value="branding">Branding</option>

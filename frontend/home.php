@@ -101,7 +101,7 @@
                 <div class="service-icon mb-3">
                   <i class="bi bi-signpost"></i>
                 </div>
-                <h3>Roadside Banner Ads</h3>
+                <h3>Roadside Banner Ads & More</h3>
                 <p>High-impact physical advertising for local business visibility.</p>
                 <div class="service-tags">
                   <span>Vinyl Banners</span>

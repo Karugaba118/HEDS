@@ -38,9 +38,9 @@
               <div class="featured-content">
                 <div class="post-meta">
                   <span class="category">Web Development</span>
-                  <span class="date"><i class="far fa-calendar"></i> June 20, 2025</span>
+                  <span class="date"><i class="far fa-calendar"></i> January 20, 2026</span>
                 </div>
-                <h3><a href="#!blog-detail.php/responsive-web-design">The Future of Responsive Web Design in 2025</a></h3>
+                <h3><a href="#!blog-detail.php/responsive-web-design">The Future of Responsive Web Design in 2026</a></h3>
                 <p>Explore how responsive design continues to evolve with new technologies and user expectations shaping the digital landscape.</p>
                 <a href="#!blog-detail.php/responsive-web-design" class="read-more-btn">Read Full Article <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -59,11 +59,11 @@
           </div>
           <div class="card-content">
             <div class="meta-info">
-              <span><i class="far fa-user"></i> Sarah Johnson</span>
-              <span><i class="far fa-clock"></i> 5 min read</span>
+              <span><i class="far fa-user"></i> Watulo Paul</span>
+              <span><i class="far fa-clock"></i> 10 min read</span>
             </div>
             <h4><a href="#!blog-detail.php/cross-platform-development">Cross-Platform Development: Flutter vs React Native</a></h4>
-            <p>Comparing the two leading frameworks for building cross-platform mobile applications in 2025.</p>
+            <p>Comparing the two leading frameworks for building cross-platform mobile applications in 2026.</p>
             <a href="#!blog-detail.php/cross-platform-development" class="card-link">Continue Reading <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
@@ -78,8 +78,8 @@
           </div>
           <div class="card-content">
             <div class="meta-info">
-              <span><i class="far fa-user"></i> Michael Chen</span>
-              <span><i class="far fa-clock"></i> 4 min read</span>
+              <span><i class="far fa-user"></i> Karugaba Confort</span>
+              <span><i class="far fa-clock"></i> 9 min read</span>
             </div>
             <h4><a href="#!blog-detail.php/minimalist-design">Minimalist Design Principles for Modern Interfaces</a></h4>
             <p>How simplicity and clarity in design can enhance user experience and engagement.</p>
@@ -97,10 +97,10 @@
           </div>
           <div class="card-content">
             <div class="meta-info">
-              <span><i class="far fa-user"></i> Emily Roberts</span>
-              <span><i class="far fa-clock"></i> 6 min read</span>
+              <span><i class="far fa-user"></i> Watulo Paul</span>
+              <span><i class="far fa-clock"></i> 12 min read</span>
             </div>
-            <h4><a href="#!blog-detail.php/seo-strategies">SEO Strategies That Actually Work in 2025</a></h4>
+            <h4><a href="#!blog-detail.php/seo-strategies">SEO Strategies That Actually Work in 2026</a></h4>
             <p>Data-driven approaches to improve your search engine rankings and organic traffic.</p>
             <a href="#!blog-detail.php/seo-strategies" class="card-link">Continue Reading <i class="fas fa-arrow-right"></i></a>
           </div>
@@ -116,8 +116,8 @@
           </div>
           <div class="card-content">
             <div class="meta-info">
-              <span><i class="far fa-user"></i> David Wilson</span>
-              <span><i class="far fa-clock"></i> 7 min read</span>
+              <span><i class="far fa-user"></i> Karugaba Confort</span>
+              <span><i class="far fa-clock"></i> 11 min read</span>
             </div>
             <h4><a href="#!blog-detail.php/checkout-optimization">Optimizing Checkout Processes for Higher Conversions</a></h4>
             <p>Reducing cart abandonment through streamlined checkout experiences.</p>
@@ -135,8 +135,8 @@
           </div>
           <div class="card-content">
             <div class="meta-info">
-              <span><i class="far fa-user"></i> Lisa Anderson</span>
-              <span><i class="far fa-clock"></i> 5 min read</span>
+              <span><i class="far fa-user"></i> Nabulondera Immaculate</span>
+              <span><i class="far fa-clock"></i> 9 min read</span>
             </div>
             <h4><a href="#!blog-detail.php/brand-identity">Building a Consistent Brand Identity Across Platforms</a></h4>
             <p>Maintaining brand coherence in a multi-channel digital environment.</p>
@@ -154,8 +154,8 @@
           </div>
           <div class="card-content">
             <div class="meta-info">
-              <span><i class="far fa-user"></i> Alex Turner</span>
-              <span><i class="far fa-clock"></i> 8 min read</span>
+              <span><i class="far fa-user"></i> Watulo Paul</span>
+              <span><i class="far fa-clock"></i> 10 min read</span>
             </div>
             <h4><a href="#!blog-detail.php/jamstack-architecture">The Rise of Jamstack: Modern Web Architecture</a></h4>
             <p>Understanding the benefits and implementation of Jamstack for modern websites.</p>

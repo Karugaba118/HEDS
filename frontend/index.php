@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>digital.com</title>
+  <link rel="shortcut icon" href="../logo/page_icon.png">
+  <title>heds.com</title>
 
   <!-- Assets CSS -->
   <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
