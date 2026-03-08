@@ -1,0 +1,30 @@
+# ============================================================
+#  HEDS – Apache / LiteSpeed rewrite rules
+#  For Hostinger shared hosting and any Apache-based host
+# ============================================================
+
+Options -Indexes +FollowSymLinks
+
+# Serve frontend/index.php when the root directory is requested
+DirectoryIndex frontend/index.php
+
+# Block direct HTTP access to the .env file
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Route bare root requests to the Angular SPA entry point
+    RewriteRule ^/?$ /frontend/index.php [L]
+
+    # Pass through requests for real files and directories unchanged
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Route bare PHP filenames (AngularJS template requests) to frontend/
+    # e.g. /home.php  →  /frontend/home.php
+    RewriteRule ^([a-zA-Z0-9][a-zA-Z0-9_-]*\.php)$ /frontend/$1 [L]
+</IfModule>

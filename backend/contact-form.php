@@ -3,6 +3,43 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Mailgun\Mailgun;
 
+// ---------------------------------------------------------------------------
+// Load .env file when environment variables have not been injected by the
+// hosting platform (e.g. Hostinger shared hosting).
+// On Render / Docker the variables are already present via the platform, so
+// this block is skipped.
+// ---------------------------------------------------------------------------
+$envFile = __DIR__ . '/../.env';
+if (file_exists($envFile)) {
+    $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    foreach ($lines as $line) {
+        // Skip blank lines and comment lines
+        $trimmed = ltrim($line);
+        if ($trimmed === '' || $trimmed[0] === '#') {
+            continue;
+        }
+        if (strpos($line, '=') === false) {
+            continue;
+        }
+        [$key, $val] = explode('=', $line, 2);
+        $key = trim($key);
+        $val = trim($val);
+        // Strip a matching pair of surrounding quotes, preserving inner content
+        if (strlen($val) >= 2) {
+            $first = $val[0];
+            $last  = $val[strlen($val) - 1];
+            if (($first === '"' && $last === '"') || ($first === "'" && $last === "'")) {
+                $val = substr($val, 1, -1);
+            }
+        }
+        // Do not overwrite variables already set by the platform
+        if ($key !== '' && getenv($key) === false) {
+            putenv("{$key}={$val}");
+            $_ENV[$key] = $val;
+        }
+    }
+}
+
 header('Content-Type: text/plain; charset=utf-8');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
