@@ -1,0 +1,31 @@
+# render.yaml – Render Blueprint for HEDS
+# https://render.com/docs/blueprint-spec
+#
+# One-click deploy:  https://render.com/deploy
+#
+# Environment variables to set in the Render dashboard
+# (Settings → Environment):
+#   MAILGUN_API_KEY   – your Mailgun private API key
+#   MAILGUN_DOMAIN    – the sending domain registered in Mailgun
+#   MAIL_RECIPIENT    – email address that receives contact-form messages
+
+services:
+  - type: web
+    name: heds-website
+    runtime: native          # Use the host's pre-installed PHP runtime
+    region: oregon           # Change to your preferred region
+    plan: free               # Use the free tier (upgrade as needed)
+
+    buildCommand: |
+      php --version | grep -q 'PHP 8' || (echo "PHP 8.x required" && exit 1)
+      cd backend && composer install --no-dev --optimize-autoloader --no-interaction
+
+    startCommand: php -S 0.0.0.0:$PORT router.php
+
+    envVars:
+      - key: MAILGUN_API_KEY
+        sync: false          # Set manually in the Render dashboard
+      - key: MAILGUN_DOMAIN
+        sync: false
+      - key: MAIL_RECIPIENT
+        sync: false
