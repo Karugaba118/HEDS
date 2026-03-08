@@ -53,7 +53,37 @@ Copy `.env.example` to `.env` and set the values:
 
 ---
 
-### Option 2 – Hostinger shared hosting (no Docker needed)
+### Option 2 – Hostinger via GitHub Actions (automated FTP deployment)
+
+Every push to the `main` branch automatically deploys the latest code to
+Hostinger using the workflow in `.github/workflows/deploy.yml`.
+
+**One-time setup**
+
+1. In your GitHub repository go to **Settings → Secrets and variables → Actions**
+   and create the following repository secrets:
+
+   | Secret name | Value |
+   |-------------|-------|
+   | `FTP_SERVER` | Your Hostinger FTP hostname or IP address |
+   | `FTP_USERNAME` | Your Hostinger FTP username |
+   | `FTP_PASSWORD` | Your Hostinger FTP account password |
+
+2. The workflow uses these secrets to connect on port `21` and upload files to
+   the `/public_html/` directory on the remote server.
+
+3. After the first deploy, create a `.env` file in `public_html/` on the server
+   (via Hostinger File Manager or SSH) with the required environment variables
+   (see the **Environment variables** section above).
+
+> **Note**: `backend/vendor/` is installed during the CI step and uploaded
+> automatically. Docker and Render-specific files (`Dockerfile`,
+> `docker-compose.yml`, `render.yaml`, `router.php`) are excluded from the
+> upload.
+
+---
+
+### Option 3 – Hostinger shared hosting (manual FTP)
 
 Hostinger's shared hosting plans include PHP 8.x and Apache/LiteSpeed, so the
 application runs without any containers.
@@ -119,7 +149,7 @@ application runs without any containers.
 
 ---
 
-### Option 3 – Docker (local development / VPS)
+### Option 4 – Docker (local development / VPS)
 
 **Requirements**
 
@@ -165,6 +195,9 @@ ports:
 
 ```
 HEDS/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml     # GitHub Actions – FTP deploy to Hostinger on push to main
 ├── .htaccess          # Apache/LiteSpeed URL rewrite rules (Hostinger)
 ├── router.php         # PHP built-in server router (Render)
 ├── render.yaml        # Render Blueprint – one-click deployment config
