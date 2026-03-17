@@ -18,7 +18,7 @@
           <p><a href="#!app-development.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> App development</a></p>
           <p><a href="#!graphics-design.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Graphics design</a></p>
           <p><a href="#!video-editing.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Video Editing</a></p>
-          <p><a href="#!seo-ads.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> SEO $ Online Ads</a></p>
+          <p><a href="#!seo-ads.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> SEO & Online Ads</a></p>
           <p><a href="#!roadside-banner.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Roadside banner Ads</a></p>
           <p><a href="#!branding.php" class="footer-link"><i class="bi bi-arrow-right arrow-icon"></i> Branding</a></p>
         </div>
@@ -46,7 +46,15 @@
             </div>
             <div class="contact-item">
               <i class="bi bi-envelope contact-icon"></i>
-              <a href="mailto:info@heds.com" class="footer-link">info@heds.com</a>
+              <a href="mailto:info@highenddigitalservices.com" class="footer-link">info@highenddigitalservices.com</a>
+            </div>
+             <div class="contact-item">
+              <i class="bi bi-envelope contact-icon"></i>
+              <a href="mailto:support@highenddigitalservices.com" class="footer-link">support@highenddigitalservices.com</a>
+            </div>
+             <div class="contact-item">
+              <i class="bi bi-envelope contact-icon"></i>
+              <a href="mailto:careers@highenddigitalservices.com" class="footer-link">careers@highenddigitalservices.com</a>
             </div>
             <div class="contact-item">
               <i class="bi bi-whatsapp contact-icon"></i>
@@ -78,7 +86,7 @@
         </div>
 
         <div class="col-md-6 col-lg-6 ml-lg-0 text-center text-md-end">
-          <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-linkedin"></i></a>
+          <a class="btn btn-floating m-1 social-icon" role="button" href="https://www.linkedin.com/company/high-end-digital-services-heds"><i class="bi bi-linkedin"></i></a>
           <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-facebook"></i></a>
           <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-twitter-x"></i></a>
           <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-tiktok"></i></a>

@@ -55,7 +55,15 @@
                     </div>
                     <div class="contact-info-item">
                         <i class="bi bi-envelope contact-info-icon"></i>
-                        <a href="mailto:info@heds.com" class="contact-info-link">info@heds.com</a>
+                        <a href="mailto:info@highenddigitalservices.com" class="contact-info-link">info@highenddigitalservices.com</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="bi bi-envelope contact-info-icon"></i>
+                        <a href="mailto:support@highenddigitalservices.com" class="contact-info-link">support@highenddigitalservices.com</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="bi bi-envelope contact-info-icon"></i>
+                        <a href="mailto:careers@highenddigitalservices.com" class="contact-info-link">careers@highenddigitalservices.com</a>
                     </div>
                     <div class="contact-info-item">
                         <i class="bi bi-whatsapp contact-info-icon"></i>

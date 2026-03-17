@@ -146,7 +146,7 @@
         <div class="tc-contact-box">
           <h3>Questions About Our Terms?</h3>
           <p>If you have any questions about these Terms & Conditions, please contact us:</p>
-          <p>Email: legal@heds.com<br>
+          <p>Email: Legal@highenddigitalservices.com<br>
           Phone: (+256) 703618938<br>
           Address: Kampala, Uganda</p>
         </div>
