@@ -73,7 +73,7 @@ $bodyContent = "
 <div style='font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #eee; padding: 20px;'>
     <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>New Inquiry Received</h2>
     
-    <p>You have received a new message from your website contact form.</p>
+    <p>You have received a new message from your HEDS contact form.</p>
     
     <table style='width: 100%; border-collapse: collapse; margin-top: 20px;'>
         <tr>
