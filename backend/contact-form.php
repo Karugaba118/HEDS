@@ -8,7 +8,6 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader (created by composer, not included with PHPMailer)
 require 'vendor/autoload.php';
 
-
 // Load .env file when environment variables have not been injected by the
 // hosting platform (e.g. Hostinger shared hosting).
 // On Render / Docker the variables are already present via the platform, so
