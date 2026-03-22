@@ -45,6 +45,8 @@ if (file_exists($envFile)) {
     }
 }
 
+
+
 header('Content-Type: text/plain; charset=utf-8');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -156,4 +158,3 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-
