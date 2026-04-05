@@ -87,10 +87,11 @@
 
         <div class="col-md-6 col-lg-6 ml-lg-0 text-center text-md-end">
           <a class="btn btn-floating m-1 social-icon" role="button" href="https://www.linkedin.com/company/high-end-digital-services-heds"><i class="bi bi-linkedin"></i></a>
-          <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-facebook"></i></a>
-          <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-twitter-x"></i></a>
-          <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-tiktok"></i></a>
-          <a class="btn btn-floating m-1 social-icon" role="button"><i class="bi bi-instagram"></i></a>
+          <a class="btn btn-floating m-1 social-icon" role="button" href="https://www.facebook.com/profile.php?id=61574518440647"><i class="bi bi-facebook"></i></a>
+          <a class="btn btn-floating m-1 social-icon" role="button" href="https://x.com/HighEndDigital"><i class="bi bi-twitter-x"></i></a>
+          <a class="btn btn-floating m-1 social-icon" role="button" href="https://vm.tiktok.com/ZS98h6hotbok6-q14hx/"><i class="bi bi-tiktok"></i></a>
+          <a class="btn btn-floating m-1 social-icon" role="button" href="https://www.instagram.com/highenddigitalservices_heds?igsh=MXZjNHN2eDNlc2RzeQ=="><i class="bi bi-instagram"></i></a>
+          <a class="btn btn-floating m-1 social-icon" role="button" href="https://linktr.ee/HighEndDigitalServices"><i class="bi bi-link-45deg"></i></a>
         </div>
       </div>
     </section>
