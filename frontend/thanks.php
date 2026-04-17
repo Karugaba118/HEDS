@@ -11,7 +11,7 @@
 <body>
     <div class="card">
         <h1>Message Sent!</h1>
-        <p>Thank you, <?php echo $_GET['name']; ?> We will get back to you shortly.</p>
+        <p>Thank you, <?php //echo $_GET['name']; ?> We will get back to you shortly.</p>
         <a href="index.php">Return to Home</a>
     </div>
 </body>

@@ -154,9 +154,10 @@ try {
 
     $mail->AltBody = $mail->AltBody;
 
-    $mail->send();
+    //$mail->send();
     // If it succeeds, redirect to your thank you page
-    header("Location: ../frontend/thanks.php?name=" . urlencode($firstName));
+    //header("Location: ../frontend/thanks.php?name=" . urlencode($firstName));
+    echo $firstName;
     exit;
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

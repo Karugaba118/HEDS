@@ -21,7 +21,7 @@
         <div class="row g-0 contact-row">
             <!-- Form Column -->
             <div class="col-md-6 contact-form-column">
-                <form action="../backend/contact-form.php" method="post" class="contact-form">
+                <form action="" method="" id="visitorform" class="contact-form" onsubmit="ajaxSubmit(this); return false;">
                     <input type="text" id="fname" name="firstname" placeholder="Your first name.." class="contact-input" required>
 
                     <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="contact-input">
@@ -83,3 +83,29 @@
     </div>
 </section>
 <!-- contact form end -->
+
+
+<!--****************The form modal ******************-->
+ <div class="modal fade" id="feedback" tabindex="-1" role="dialog" aria-labelledby="appModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="appModal1Label" style="color: #2ecc71;">Message Sent Successfuly</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+                <p>Thank you <span id="sender"></span>, We will get back to you shortly.</p>
+                
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

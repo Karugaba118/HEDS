@@ -174,3 +174,28 @@ document.addEventListener('DOMContentLoaded', function() {
   animateOnScroll();
 });
 // Fixed counter animation for statistics end
+
+
+//********** Deploying AJAX for the contact page form ************************************* 
+function ajaxSubmit(){
+  var xmlhttp;
+  if(window.XMLHttpRequest){ xmlhttp = new XMLHttpRequest();}
+  else{ xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");}
+
+  var formdata = new FormData(document.getElementById("visitorform"));
+
+  xmlhttp.open("POST", "../backend/contact-form.php", true);
+
+  xmlhttp.onload = function(){
+    if(xmlhttp.status == 200){
+      var feedback = document.getElementById('feedback');//getting the modal by id
+      var modal = new bootstrap.Modal(feedback); //let bootstrap understand the modal
+      document.getElementById("sender").innerHTML = this.responseText; // place your respone into the modal
+
+      modal.show(); //execute to show the modal
+    }
+    
+  };
+  xmlhttp.send(formdata);
+
+}
