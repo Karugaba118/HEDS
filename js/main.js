@@ -193,6 +193,8 @@ function ajaxSubmit(){
       document.getElementById("sender").innerHTML = this.responseText; // place your respone into the modal
 
       modal.show(); //execute to show the modal
+
+      document.getElementById("visitorform").reset();
     }
     
   };

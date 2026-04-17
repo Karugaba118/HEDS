@@ -154,7 +154,7 @@ try {
 
     $mail->AltBody = $mail->AltBody;
 
-    //$mail->send();
+    $mail->send();
     // If it succeeds, redirect to your thank you page
     //header("Location: ../frontend/thanks.php?name=" . urlencode($firstName));
     echo $firstName;
